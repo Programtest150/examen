@@ -1,0 +1,38 @@
+body {
+    background: #000000;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    height: 100%;
+}
+
+.carousel-item .card {
+    margin: 0 5px;
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 90%;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+}
+
+
+@media (max-width: 480px) {
+    .carousel-item {
+        height: 400px;
+        max-width: 300px;
+    }
+
+    .carousel-caption {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+        bottom: 15px;
+    }
+}
